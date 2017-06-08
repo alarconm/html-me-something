@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link type="text/css" rel="stylesheet" href="styles.css">
@@ -11,51 +10,74 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="https://codepen.io/alarconm/">Michael Alarcon</a>
-            <a class="btn" href="https://www.linkedin.com/in/mikealarconII">
-        <i class="fa fa-linkedin-square fa-3x"></i></a>
-                                <a class="btn" href="https://github.com/alarconm">
-        <i class="fa fa-github-square fa-3x"></i></a>
-                                                <a class="btn" href="https://twitter.com/Alarconm2">
-        <i class="fa fa-twitter-square fa-3x"></i></a>
-                                                            <a class="btn" href="https://www.facebook.com/alarconm">
-        <i class="fa fa-facebook-square fa-3x"></i></a>
-        </div>
-            
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Michael Alarcon</a>
+                <a class="btn" href="https://www.linkedin.com/in/mikealarconII" target="_blank">
+                <i class="fa fa-linkedin-square fa-3x"></i></a>
+                <a class="btn" href="https://github.com/alarconm" target="_blank">
+                <i class="fa fa-github-square fa-3x"></i></a>
+                <a class="btn" href="https://twitter.com/Alarconm2" target="_blank">
+                <i class="fa fa-twitter-square fa-3x"></i></a>
+                <a class="btn" href="https://www.facebook.com/alarconm" target="_blank">
+                <i class="fa fa-facebook-square fa-3x"></i></a>
+                <a class="btn" href="https://codepen.io/alarconm/" target="_blank">
+                <i class="fa fa-codepen fa-3x"></i></a>
+        </div>       
         <ul class="nav navbar-nav navbar-right">
         <li><a href="#aboutPage">About</a></li>
         <li><a href="#portfolioPage">Portfolio</a></li>
         <li><a href="#contactPage">Contact</a></li>
         </ul>
-    </div>
+        </div>
+
     </nav>
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-md-3" id="leftside"></div> 
+            <div class="col-md-6">
     <main>
-    <header>
-        <h1>Michael Alarcon</h1>
-        <img src="images/LinkedInProfilePic.jpg" />
-        <h2>Aspiring Developer</h2>
-        <h3>Currently learning Python</h3>
-        <p>&#9674;I am looking to leverage and transfer the skills that I have developed during my 10 years as a
-            big-box retail general manager and multi-unit district manager into a software developer role.&#9674;
-        </p>
-    </header>
-    <article>
-        <h1>My Professional Journey</h1>
-        <p>District Manager</p>
-        <p>Investment Advisor</p>
-        <p>District Manager - Seattle</p>
-        <p>General Manager - Seattle</p>
-        <p>General Manager - Wenatchee</p>
-        <p>Assistant Manager - Vancouver</p>
-        <p>Assistant Manager - Beaverton</p>
-        <p>Oregon State</p>
-    </article>
+        <header>
+            <h1 id="intro">Michael Alarcon</h1>
+            <img id ="intropic" src="images/LinkedInProfilePic.jpg" />
+            <h2>Aspiring Developer</h2>
+            <hr />
+
+            <h3>Currently learning Python</h3>
+            <p><em>I am looking to leverage and transfer the skills that I have developed during my 10 years as a
+                big-box retail general manager and multi-unit district manager into a software developer role.</em>
+            </p>
+        </header>
+        <article>
+            <h1>My Professional Journey</h1>
+            <div class="well">
+                <h4>District Manager - Public Storage</h4>
+                <img src="images/publicstorage.jpg">
+            </div>
+            <div class="well">
+                <h4>Investment Advisor - Pacific Coast Investment Advisors</h4>
+                <img src="images/investment_advisor.jpg">
+            </div>
+            <div class="well">
+                <h4>General Manager - Target</h4>
+                <img src="images/target.jpg">
+            </div>
+            <p>District Manager - Seattle</p>
+            <p>General Manager - Seattle</p>
+            <p>General Manager - Wenatchee</p>
+            <p>Assistant Manager - Vancouver</p>
+            <p>Assistant Manager - Beaverton</p>
+            <p>Oregon State</p>
+        </article>
     </main>
+    </div>
+        <div class="col-md-3" id="rightside">
+        </div>
+    </div>
+    </div>
 </body>
 <footer>
     <p>Contact me &#8594;<a href="mailto:malarconii@yahoo.com">
-    malarconii@yahoo.com</a>.</p>
+    malarconii@yahoo.com</a></p>
 </html>
 
 

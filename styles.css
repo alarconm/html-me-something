@@ -445,10 +445,9 @@ template {
 [hidden] {
   display: none;
 }
-
-img {
+#intropic {
     margin: auto;
-    padding: 3em;
+    padding: 1rem;
     border-radius: 100%;
 }
 
@@ -467,4 +466,22 @@ header {
 
 footer {
     text-align: center;
+}
+
+#intro {
+  margin-top: 8rem;
+}
+
+#leftside {
+  background-color: grey;
+}
+
+#rightside {
+  background-color: lightskyblue;
+}
+
+hr {
+  color: black;
+  border-width: 1rem;
+  width: 50%;
 }

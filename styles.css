@@ -451,10 +451,6 @@ template {
     border-radius: 100%;
 }
 
-body {
-    background-color: whitesmoke;
-}
-
 article {
     text-align: center;
     border-radius: 10%;

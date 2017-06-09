@@ -23,13 +23,13 @@
                 <i class="fa fa-codepen fa-3x"></i></a>
         </div>       
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="#aboutPage">About</a></li>
-        <li><a href="#portfolioPage">Portfolio</a></li>
+        <li><a href="#journey">Career</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#footer">Contact</a></li>
         </ul>
         </div>
-
     </nav>
+
     <div class="container-fluid">
        <div class="row">
            <div class="col-md-3" id="leftside"></div> 
@@ -37,55 +37,68 @@
     <main>
         <header>
             <h1 id="intro">Michael Alarcon</h1>
-            <img id ="intropic" src="images/LinkedInProfilePic.jpg" />
-            <h2>Aspiring Developer</h2>
-            <hr />
-
-            <h3>Currently learning Python</h3>
-            <p><em>I am looking to leverage and transfer the skills that I have developed during my 10 years as a
-                big-box retail general manager and multi-unit district manager into a software developer role.</em>
-            </p>
+            <img id ="intropic" class="img-responsive" src="images/LinkedInProfilePic.jpg" />
+            <h3>Currently learning Python and Flask</h3>
         </header>
-        <article>
+        <article id="portfolio">
+            <hr />
+            <h1>Portfolio</h1>
+            <div id="portfolio_background">
+            <div class="well">
+                <h4>Javascript Calculator</h4>
+               <a href="https://codepen.io/alarconm/full/evJLzd/" target="_blank"> <img class="img-responsive" src="images/calculator.png"></a>
+                <p>Simple calculator using jQuery</p>
+            </div>
+            <div class="well">
+                <h4>Javascript Wikipedia Viewer</h4>
+                <a href="https://codepen.io/alarconm/full/vgmyrY/" target="_blank"> <img class="img-responsive" src="images/wikipedia.jpg"></a>
+                <p>Wikipedia viewer that pulls the top 10 results for a query</p>
+            </div>
+            </div>
+
+        </article>
+
+        <article id="journey">
+            <hr />
             <h1>My Professional Journey</h1>
             <div class="well">
                 <h4>District Manager - Public Storage</h4>
                 <h5><em>September 2014 - October 2017</em></h5>
-                <img src="images/publicstorage.jpg">
+                <img class="img-responsive" src="images/publicstorage.jpg">
                 <p>Lead a team of 20+ property managers to run a district of 12 properties grossing over $1m in monthly revenue</p>
             </div>
             <div class="well">
                 <h4>Investment Advisor - Pacific Coast Investment Advisors</h4>
                 <h5><em>September 2015 - March 2016</em></h5>
-                <img src="images/investment_advisor.jpg">
+                <img class="img-responsive" src="images/investment_advisor.jpg">
                 <p>Worked with a personal friend in his family investment advisory business for a short time.
                  Passed the series 65 and became a registered investment advisor.</p>
             </div>
             <div class="well">      
                 <h4>General Manager - Target</h4>
                 <h5><em>February 2008 - September 2014</em></h5>
-                <img src="images/target.jpg">
-                <p>Worked as an assistant store manager in two different roles before promoting to General Manager in 2011. Relocated from Portland to Eastern Washington
-                to run a store in Wenatchee, WA. Promoted after two years into a larger store as the manager of the Federal Way, WA store. Responsible for over 150 employees
+                <img class="img-responsive" src="images/target.jpg">
+                <p>Started as an assistant store manager in two different roles before promoting to General Manager in 2011. Relocated from Portland to Eastern Washington
+                to run a store in Wenatchee, WA. Promoted and relocated after two years into a larger store as the manager of the Federal Way, WA store. Responsible for over 150 employees
                 and over $40m in annual revenue.</p>
             </div>
             <div class="well">
                 <h4>College - Oregon State University</h4>
                 <h5><em>2003 - 2007</em></h5>
-                <img src="images/oregonstate.png">
+                <img class="img-responsive" src="images/oregonstate.png">
                 <p>Graduated in 2007 with a Bachelor's degree in Business Administration</p>
             </div>
         </article>
     </main>
     </div>
-        <div class="col-md-3" id="rightside">
-        </div>
+    <div class="col-md-3" id="rightside"></div>
     </div>
     </div>
 </body>
-<footer id="footer">
+    <footer id="footer">
     <p>Email me &#8594;<a href="mailto:malarconii@yahoo.com">
     Michael Alarcon</a></p>
+    </footer>
 </html>
 
 

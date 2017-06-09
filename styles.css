@@ -485,3 +485,8 @@ hr {
 img {
   margin: auto;
 }
+
+span {
+  position: absolute;
+  right: 0;
+}
